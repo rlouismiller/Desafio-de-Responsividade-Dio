@@ -1,0 +1,167 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Luckiest+Guy&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+
+
+body {
+    display:flex;
+    flex-direction: column;
+    font-family:"Open Sans", serif;
+    font-size: 1rem;
+    margin: 0px;
+    width:100%;
+    
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;    
+    
+    color: white;
+
+    max-width: 100%;
+    min-width: 320px;
+    height: 505px;     
+
+   background-image: url('../images/background.png');
+   background-position-x: center;
+   background-position-y: bottom;
+   background-repeat: no-repeat;
+   background-size: cover;
+
+   justify-content: center;
+
+   
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    max-width: 100%;
+    min-width: 320px;
+    
+}
+
+.titulo{
+    
+    font-family: "Luckiest Guy";
+    font-size: 1.5rem;
+}
+
+section {   
+    display: flex;
+    flex-direction: column;
+    padding: 0rem 1.5rem;
+    
+    
+}
+
+input {
+    border-radius: 25px;
+    width: 280px;
+    height: 54px;    
+    border: 0px;
+    margin-bottom: 1rem;
+        
+}
+
+input#windows {
+    text-align: center;
+    background-color: black;
+    color: white;
+}
+
+.botoes {
+    text-align: center;
+   
+}
+
+
+
+#A, #B, #C, #D { 
+    max-width: 607px;
+
+}
+
+#E {
+   width: 162px;
+   height: 45px;
+   
+
+   
+}
+
+footer {
+    display: flex;
+    max-width: 100%;
+    min-width: 320px;
+    height: 134px;
+    background-color: #23272A;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+footer img {
+   
+    max-width: 100%;
+    height: 53px;
+}
+
+.sectionD {
+        background-color: #f6f6f6;
+    }
+   
+    
+
+
+@media (min-width: 769px) {
+    .titulo {
+        font-size: 2rem;
+        text-align: center;
+    }
+    p.descricaoTitulo {
+        width: 760px;
+        justify-content: center;
+        margin: auto;
+        text-align: center;
+    }
+    input {
+        margin-top: 
+        1rem;
+}
+    .section {
+        flex-direction: row;
+        align-items: center;
+        margin: auto;
+    }
+
+    .section p, h3{
+        max-width: 360px;
+    }
+
+    section h3{
+        font-size: 1.5rem;
+        text-indent: bolder;
+    }
+
+   #conteudofinal {
+        align-items: center;
+        flex-direction: column;
+        max-width: 802px;
+        margin: auto;
+    }
+
+    #D {
+        margin: auto;
+    }
+
+        
+        
+        
+    
+
+}
